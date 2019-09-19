@@ -1,0 +1,112 @@
+body {
+    background-color: #f8f8f8;
+    font-family: sans-serif
+}
+
+.menu{
+    list-style-type: none;
+}
+
+.menu_link{
+    color: steelblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    color: #2d3e54;
+    font-size: 30px;
+    font-weight: 400;
+}
+h2{
+    font-size: 24px;
+    color: #2d3e54;
+    font-weight: 400;
+}
+h3{
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+h4{
+    font-size: 20px;
+    color: #2d3e54;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: black;
+}
+
+.full_description{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristics{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    list-style-image: url(images/dot.jpg);
+}
+
+.text{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.small_text{
+    color: #484343;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.catalog_link{
+    color: #484343;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.book_link{
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 40px;
+    color: #2d3e54;
+}
+
+input[type="text"] {
+    color: #484343;
+    font-size: 14px;
+    font-weight: 400;
+    width: 200px;
+}
+
+input[type="email"] {
+    color: #484343;
+    font-size: 14px;
+    font-weight: 400;
+    width: 187px;
+}
+
+.feedback{
+    width: 200px;
+}
+
+.small_img{
+    width: 250px;
+}
+.big_img{
+    width: 500px;
+}

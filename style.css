@@ -3,6 +3,17 @@ body {
     font-family: sans-serif
 }
 
+.header{
+    height: 210px;
+    background-color: #eee;
+}
+
+.footer{
+   height: 100px;
+   background-color: #ccc;
+   color: #484343;
+}
+
 .menu{
     list-style-type: none;
 }
@@ -13,17 +24,28 @@ body {
     font-size: 20px;
 }
 
-h1{
+.section_link{
+    color: steelblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu_link:hover{
+    color: lightskyblue;
+}
+
+.title_header{
     color: #2d3e54;
     font-size: 30px;
     font-weight: 400;
+    font-family: monospace;
 }
-h2{
+.medium_header{
     font-size: 24px;
     color: #2d3e54;
     font-weight: 400;
 }
-h3{
+.small_header{
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
@@ -48,13 +70,33 @@ h4{
     line-height: 24px;
     text-align: left;
 }
+
+.full_description:first-letter{
+    color: cadetblue;
+    font-size: 20px;
+    font-family: serif;
+}
+
+
+/*
 .characteristics{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    list-style-image: url(images/dot.jpg);
+    height: 30 px;
+    text-align: left;
+    list-style-type: none;
+}
+*/
+
+.table_characteristics{
     color: #707070;
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
     text-align: left;
-    list-style-image: url(images/dot.jpg);
 }
 
 .text{
@@ -93,11 +135,21 @@ input[type="text"] {
     width: 200px;
 }
 
+input[type="text"]:focus, textarea[type="text"]:focus {
+    text-transform: capitalize;
+    background-color: lightcyan;
+}
+
 input[type="email"] {
     color: #484343;
     font-size: 14px;
     font-weight: 400;
     width: 187px;
+}
+
+input[type="email"]:focus {
+    color: #000;
+    background-color: lightcyan;
 }
 
 .feedback{
@@ -110,3 +162,25 @@ input[type="email"] {
 .big_img{
     width: 500px;
 }
+.header_img{
+    width: 100px;
+}
+
+.button_buy{
+    display: block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button_buy: hover{
+    border: 1px solid purple;
+    color: purple;
+    background-color: #fff;
+}
+
+.

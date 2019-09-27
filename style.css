@@ -4,34 +4,84 @@ body {
 }
 
 .header{
-    height: 210px;
+    height: 120px;
     background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.logo_img{
+    height: 120px;
 }
 
 .footer{
-   height: 100px;
-   background-color: #ccc;
-   color: #484343;
+    height: 50px;
+    background-color: #ccc;
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
 }
 
 .menu{
     list-style-type: none;
+    display: flex;
+/*    flex-grow: 1;*/
 }
 
 .menu_link{
     color: steelblue;
     text-decoration: none;
     font-size: 20px;
+    padding: 5px 40px;
+    display: block;
 }
 
+.menu_link:hover{
+    color: lightskyblue;
+}
+
+.menu_in{
+    position: absolute;
+    text-decoration: none;
+    background-color: #eee;
+    list-style-type: none;
+    display: none;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+
+.menu_link:hover .menu_in{
+    display: block;
+}
 .section_link{
     color: steelblue;
     text-decoration: none;
     font-size: 20px;
 }
 
-.menu_link:hover{
-    color: lightskyblue;
+.content{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.book_link{
+    width: 200px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2d3e54;
+    text-align: center;
 }
 
 .title_header{
@@ -97,6 +147,7 @@ h4{
     font-weight: 500;
     line-height: 30px;
     text-align: left;
+    display: flex;
 }
 
 .text{
@@ -119,13 +170,6 @@ h4{
     text-decoration: none;
     font-size: 24px;
     line-height: 40px;
-}
-
-.book_link{
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 40px;
-    color: #2d3e54;
 }
 
 input[type="text"] {
@@ -157,13 +201,10 @@ input[type="email"]:focus {
 }
 
 .small_img{
-    width: 250px;
+    height: 300px;
 }
 .big_img{
     width: 500px;
-}
-.header_img{
-    width: 100px;
 }
 
 .button_buy{
@@ -175,12 +216,32 @@ input[type="email"]:focus {
     color: #fff;
     text-decoration: none;
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.button_buy: hover{
+.button_buy:hover{
     border: 1px solid purple;
-    color: purple;
-    background-color: #fff;
+    color: white;
+    background-color: mediumpurple;
 }
 
-.
+.img{    
+    float:left;
+    margin-right: 30px;
+}
+
+.short_characteristics{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+
+.description {
+    overflow: hidden;
+}
